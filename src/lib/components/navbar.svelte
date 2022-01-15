@@ -18,11 +18,14 @@
         <a class="btn btn-ghost btn-sm rounded-btn" href="/projects">
           Portfolio
         </a>
-        <a class="btn btn-ghost btn-sm rounded-btn" href="/posts">
-          Blog
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
+          Education
         </a>
         <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
           About
+        </a>
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/posts">
+          Blog
         </a>
       </ul>
     </div>
@@ -32,11 +35,14 @@
         <a class="btn btn-ghost btn-sm rounded-btn" href="/projects">
           Portfolio
         </a>
-        <a class="btn btn-ghost btn-sm rounded-btn" href="/posts">
-          Blog
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
+          Education
         </a>
         <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
           About
+        </a>
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/posts">
+          Blog
         </a>
         <div class="px-4">
           <ThemeSelect />
