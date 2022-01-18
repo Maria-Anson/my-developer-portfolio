@@ -21,6 +21,9 @@
         <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
           Education
         </a>
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/experience">
+          Experience
+        </a>
         <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
           About
         </a>
@@ -37,6 +40,9 @@
         </a>
         <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
           Education
+        </a>
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/experience">
+          Experience
         </a>
         <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
           About

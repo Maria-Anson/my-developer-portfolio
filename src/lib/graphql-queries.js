@@ -14,6 +14,23 @@ export const authorsQuery = gql`
   }
 `
 
+export const experiencesQuery = gql`
+query GetExperiences {
+  experiences {
+    intro
+    certificates {
+      url
+    }
+    timeline {
+      html
+      markdown
+      raw
+      text
+    }
+  }
+}
+`
+
 const PROJECT_FRAGMENT = gql`
   fragment ProjectDetails on Project {
     name
