@@ -33,5 +33,5 @@
   
   <p><strong>Experience Certificates</strong></p>
   <iframe src="https://docs.google.com/gview?url={certificates[0].url}&embedded=true" frameborder="0" scrolling="yes" height="500 px" width = "350 px" align="left"> </iframe> 
-  <iframe src="https://docs.google.com/gview?url={certificates[1].url}&embedded=true" frameborder="0" scrolling="yes"  height="500 px" width = "350 px" align="right"></iframe>
+  <iframe src="https://docs.google.com/gview?url={certificates[1].url}&embedded=true" frameborder="0" scrolling="yes"  height="500 px" width = "350 px" align="right"> </iframe>
 </article>
