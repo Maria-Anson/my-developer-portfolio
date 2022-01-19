@@ -23,9 +23,6 @@ query GetExperiences {
     }
     timeline {
       html
-      markdown
-      raw
-      text
     }
   }
 }
@@ -60,6 +57,37 @@ const POST_FRAGMENT = gql`
   }
 `
 
+const EDUCATION_FRAGMENT = gql`
+  fragment EducationDetails on Education {
+    levelOfEducation
+    academyname
+    subHeading
+    slug
+    about{html}
+    tags
+    coverImage {
+      url
+    }
+  }
+`
+
+export const educationsQuery = gql`
+  ${EDUCATION_FRAGMENT}
+  query GetEducations {
+    educations {
+      ...EducationDetails
+    }
+  }
+`
+
+export const educationQuery = gql`
+  ${EDUCATION_FRAGMENT}
+  query GetEducation($slug: String!) {
+    education(where: { slug: $slug }) {
+      ...EducationDetails
+    }
+  }
+`
 
 export const projectsQuery = gql`
   ${PROJECT_FRAGMENT}

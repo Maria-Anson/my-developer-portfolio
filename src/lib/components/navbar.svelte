@@ -18,7 +18,7 @@
         <a class="btn btn-ghost btn-sm rounded-btn" href="/projects">
           Portfolio
         </a>
-        <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/education">
           Education
         </a>
         <a class="btn btn-ghost btn-sm rounded-btn" href="/experience">
@@ -38,7 +38,7 @@
         <a class="btn btn-ghost btn-sm rounded-btn" href="/projects">
           Portfolio
         </a>
-        <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/education">
           Education
         </a>
         <a class="btn btn-ghost btn-sm rounded-btn" href="/experience">
