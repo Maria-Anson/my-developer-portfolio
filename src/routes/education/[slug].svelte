@@ -52,5 +52,7 @@
 </div>
 
 <article div class="prose prose-lg">
-    {@html (about[0].html)}
+  {#each about as ind_about}  
+    {@html (ind_about.html)}
+  {/each}
 </article>
