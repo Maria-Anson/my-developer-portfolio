@@ -21,9 +21,11 @@ query GetExperiences {
     certificates {
       url
     }
-    timeline {
-      html
+    timelineseries{
+      html      
+      references {... on Asset {url}}
     }
+    logo{url}
   }
 }
 `
@@ -65,6 +67,7 @@ const EDUCATION_FRAGMENT = gql`
     slug
     about{html}
     tags
+    url
     coverImage {
       url
     }

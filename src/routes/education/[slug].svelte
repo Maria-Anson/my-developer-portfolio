@@ -18,7 +18,7 @@
 <script>
     export let education
   
-    const { levelOfEducation, academyname, subHeading, tags, about, coverImage } = education
+    const { levelOfEducation, academyname, subHeading, tags, url, about, coverImage } = education
   </script>
 
 <svelte:head>
@@ -26,7 +26,7 @@
 </svelte:head>
 
 <div class="sm:-mx-5 md:-mx-10 lg:-mx-20 xl:-mx-38 mb-5">
-    <a href ="https://www.accet.co.in/" target="_blank" rel="noopener noreferrer">
+    <a href = {url} target="_blank" rel="noopener noreferrer">
     <img
       class="rounded-xl"
       src={coverImage.url}
@@ -52,5 +52,5 @@
 </div>
 
 <article div class="prose prose-lg">
-    {@html (about.html)}
+    {@html (about[0].html)}
 </article>
