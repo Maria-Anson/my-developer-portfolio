@@ -37,7 +37,7 @@
     </h1>
   </div> 
   <div class="collapse-content"> 
-    <p align="center"><iframe width="450" height="300" src="https://www.youtube.com/embed/V7Tf7sazIFw" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p align="center"><iframe width="450" height="300" src="https://www.youtube.com/embed/u3Fwa_NfeiA" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
   </div>
 </div> 
