@@ -29,9 +29,23 @@
   <title>My Portfolio project</title>
 </svelte:head>
 
+<div class="collapse border rounded-box border-base-300 shadow-2xl collapse-plus">
+  <input type="checkbox"> 
+  <div class="collapse-title text-xl font-large">
+    <h1 class="font-bold text-center text-5xl">
+      Welcome to my Portfolio
+    </h1>
+  </div> 
+  <div class="collapse-content"> 
+    <p align="center"><iframe width="450" height="300" src="https://www.youtube.com/embed/V7Tf7sazIFw" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+  </div>
+</div> 
+
+
 <h1 class="font-bold text-center mb-20 text-5xl">
-  Welcome to my Portfolio
 </h1>
+
 
 {#each authors as { name, intro, picture: { url } }}
   <div class="flex mb-40 items-end">

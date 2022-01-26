@@ -34,7 +34,6 @@
 
 <h1 class="font-bold text-center mb-20 text-5xl">My Professional Experiences</h1>
 
-
 <article div class="prose prose-lg">
 {#each timelineseries as sep_time }
   <div class="card text-center shadow-2xl mb-20">
