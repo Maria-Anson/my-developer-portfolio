@@ -5,6 +5,7 @@
     import LinkedinIcon from './icons/linkedin-icon.svelte'
     import GithubIcon from './icons/github-icon.svelte'
     import InstagramIcon from './icons/instagram-icon.svelte'
+    import DiscordIcon from './icons/discord-icon.svelte';
     import MailIcon from './icons/mail-icon.svelte';
   </script>
   
@@ -26,6 +27,9 @@
         </a>
         <a href="https://github.com/Maria-Anson">
           <GithubIcon/>
+        </a>
+        <a href="https://discordapp.com/users/Anson#1421">
+          <DiscordIcon/>
         </a>
         <a href="https://www.facebook.com/anson.anzz/">
           <FacebookIcon />

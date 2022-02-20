@@ -18,6 +18,9 @@
         <a class="btn btn-ghost btn-sm rounded-btn" href="/projects">
           Portfolio
         </a>
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/resume">
+          Resume
+        </a>
         <a class="btn btn-ghost btn-sm rounded-btn" href="/education">
           Education
         </a>
@@ -27,9 +30,9 @@
         <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
           About
         </a>
-        <a class="btn btn-ghost btn-sm rounded-btn" href="/posts">
+        <!-- <a class="btn btn-ghost btn-sm rounded-btn" href="/posts">
           Blog
-        </a>
+        </a> -->
       </ul>
     </div>
   
@@ -38,6 +41,9 @@
         <a class="btn btn-ghost btn-sm rounded-btn" href="/projects">
           Portfolio
         </a>
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/resume">
+          Resume
+        </a>
         <a class="btn btn-ghost btn-sm rounded-btn" href="/education">
           Education
         </a>
@@ -47,9 +53,9 @@
         <a class="btn btn-ghost btn-sm rounded-btn" href="/about">
           About
         </a>
-        <a class="btn btn-ghost btn-sm rounded-btn" href="/posts">
+        <!-- <a class="btn btn-ghost btn-sm rounded-btn" href="/posts">
           Blog
-        </a>
+        </a> -->
         <div class="px-4">
           <ThemeSelect />
         </div>
