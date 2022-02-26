@@ -71,13 +71,14 @@ const EDUCATION_FRAGMENT = gql`
     coverImage {
       url
     }
+    orderIndex
   }
 `
 
 export const educationsQuery = gql`
   ${EDUCATION_FRAGMENT}
-  query GetEducations {
-    educations {
+  query GetEducations  {
+    educations (orderBy: orderIndex_ASC) {
       ...EducationDetails
     }
   }
