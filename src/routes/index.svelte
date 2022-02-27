@@ -1,3 +1,4 @@
+google-site-verification: googlef9d2bff90e3acfa5.html
 <script context="module">
   import ProjectCard from '$lib/components/project-card.svelte'
   import { client } from '$lib/graphql-client'
