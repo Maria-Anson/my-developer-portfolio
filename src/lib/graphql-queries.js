@@ -41,6 +41,7 @@ const PROJECT_FRAGMENT = gql`
     image {
       url
     }
+    orderIndex
   }
 `
 const POST_FRAGMENT = gql`
@@ -56,6 +57,7 @@ const POST_FRAGMENT = gql`
     authors {
       name
     }
+    orderIndex
   }
 `
 
@@ -96,7 +98,7 @@ export const educationQuery = gql`
 export const projectsQuery = gql`
   ${PROJECT_FRAGMENT}
   query GetProjects {
-    projects {
+    projects (orderBy: orderIndex_ASC) {
       ...ProjectDetails
     }
   }
@@ -114,7 +116,7 @@ export const projectQuery = gql`
 export const postsQuery = gql`
   ${POST_FRAGMENT}
   query GetPosts {
-    posts {
+    posts (orderBy: orderIndex_ASC){
       ...PostDetails
     }
   }
