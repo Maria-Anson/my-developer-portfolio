@@ -25,12 +25,12 @@
 </svelte:head>
 
 <div class="sm:-mx-5 md:-mx-10 lg:-mx-20 xl:-mx-38 mb-5">
-  <a href = {project.demo} target="_blank" rel="noopener noreferrer"></a>
+  <a href = {project.demo} target="_blank" rel="noopener noreferrer">
   <img
     class="rounded-lg"
     src={project.image[0].url}
     alt={project.title}
-  />
+  /></a>
 </div>
 
 <h1 class="text-4xl font-semibold mb-5">{project.name}</h1>
