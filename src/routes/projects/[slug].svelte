@@ -25,6 +25,7 @@
 </svelte:head>
 
 <div class="sm:-mx-5 md:-mx-10 lg:-mx-20 xl:-mx-38 mb-5">
+  <a href = {project.demo} target="_blank" rel="noopener noreferrer"></a>
   <img
     class="rounded-lg"
     src={project.image[0].url}
@@ -39,7 +40,7 @@
     {#if project.tags}
       {#each project.tags as tag}
         <span
-          class="badge badge-primary mr-2 hover:bg-primary-focus cursor-pointer"
+          class="badge badge-lg badge-primary mr-2 hover:bg-primary-focus cursor-pointer"
           >{tag}</span
         >
       {/each}

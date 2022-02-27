@@ -41,8 +41,8 @@
           {/each}
         </div>
         <div class="justify-center card-actions">
-          <a href={`/education/${slug}`} class="btn btn-outline btn-primary"
-            >Read &rArr;</a
+          <a href={`/education/${slug}`} class="btn btn-outline btn-primary btn-sm"
+            >Read More &rArr;</a
           >
         </div>
       </div>
