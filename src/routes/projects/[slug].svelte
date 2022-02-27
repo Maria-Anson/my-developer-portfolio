@@ -47,12 +47,12 @@
   </div>
 </div>
 
-<div
+<!-- <div
   class="mb-5 prose flex prose-a:text-primary hover:prose-a:text-primary-focus"
 >
   <a class="mr-5" href={project.demo}>Demo</a>
   <a href={project.sourceCode}>Source Code</a>
-</div>
+</div> -->
 
 <article class="prose prose-xl">
   {@html marked(project.description)}
