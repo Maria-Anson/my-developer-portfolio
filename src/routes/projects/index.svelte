@@ -2,7 +2,7 @@
     import ProjectCard from '$lib/components/project-card.svelte'
     import { client } from '$lib/graphql-client'
     import { projectsQuery } from '$lib/graphql-queries'
-    import { marked } from 'marked'
+    import {marked} from 'marked'
 
     export const load = async () => {
       const { projects } = await client.request(projectsQuery)
@@ -33,7 +33,7 @@
     {#each projects as { name, slug, description, image }, index}
       <ProjectCard
         {name}
-        {@html marked(description)}
+        {description}
         url={image[0].url}
         {index}
         {slug}
