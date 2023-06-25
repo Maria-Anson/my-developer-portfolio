@@ -55,8 +55,8 @@
 </article>
 
 <article div class="prose prose-lg">
-  <p><strong>Experience Certificates</strong></p>
-  <iframe src="https://docs.google.com/gview?url={certificates[0].url}&embedded=true" frameborder="0" scrolling="yes" height="500 px" width = "350 px" align="left"> </iframe> 
-  <iframe src="https://docs.google.com/gview?url={certificates[1].url}&embedded=true" frameborder="0" scrolling="yes"  height="500 px" width = "350 px" align="right"> </iframe>  
+<p><strong>Experience Certificates</strong></p>
+{#each certificates as certificate, index }
+  <iframe src="https://docs.google.com/gview?url={certificates[index].url}&embedded=true" frameborder="0" scrolling="yes" height="500 px" width = "350 px" align="left"> </iframe> 
+{/each}
 </article>
-
