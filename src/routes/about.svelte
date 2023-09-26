@@ -36,7 +36,7 @@
       <p class="text-xl mb-4">{@html marked(intro)}</p>
     </div>
   
-    <img class="mask mask-squircle h-98" src={url} alt={name} />
+    <img class="mask mask-squircle h-48" src={url} alt={name} />
   </div>
   
   <article div class="prose prose-lg">
