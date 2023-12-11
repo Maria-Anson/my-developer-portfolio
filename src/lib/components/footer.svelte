@@ -19,7 +19,7 @@
     </div>
     <div>
       <div class="grid grid-flow-col gap-4">
-        <a href="mailto:anson.maria.a@gmail.com">
+        <a href="mailto:maria.anson@outlook.com">
           <MailIcon/>
         </a>
         <a href="https://www.linkedin.com/in/maria-anson/">
@@ -46,7 +46,7 @@
       </div>
     </div>
     <div>
-      <p>Reach me at anson.maria.a@gmail.com</p>
+      <p>Reach me at maria.anson@outlook.com</p>
     </div>
     <div>
       <p>
