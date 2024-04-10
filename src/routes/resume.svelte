@@ -26,7 +26,7 @@
     <div id="target">
         <!-- <iframe title="Resume" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQRywyM_8EwhvOOnUFGjafsnQgmNRv8PguZtqVpTzlQWCnMjTrlHR3AwJrYHqftKA/pub?embedded=true"></iframe> -->
         <!-- <iframe title="Resume" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vQObjQPbyuCzynKEn2nfGJWoR2ge5wsotl9UQ_MGdi2Q2Qny-EHsc3rXwMUCtqMhA/pub?embedded=true"></iframe> -->
-        <iframe src="https://drive.google.com/file/d/1rqSCKguPiKcLfo7Q9CZJE8ZCRZWMI3qk/view?usp=sharing" width="100%" height="500"></iframe>
+        <iframe title="Resume" scrolling="yes" src="https://drive.google.com/file/d/1rqSCKguPiKcLfo7Q9CZJE8ZCRZWMI3qk/view?usp=sharing" width="100%" height="500"></iframe>
     </div>
 </body>
 </article>
