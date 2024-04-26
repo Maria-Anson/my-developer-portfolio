@@ -27,7 +27,7 @@
 </script>
 
 <svelte:head>
-  <title>My Portfolio project</title>
+  <title>Maria Anson's Portfolio</title>
 </svelte:head>
 
 <div class="collapse border rounded-box border-base-300 shadow-2xl collapse-plus">
