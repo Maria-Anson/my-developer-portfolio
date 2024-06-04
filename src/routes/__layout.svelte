@@ -8,6 +8,19 @@
   onMount(async () => {
     themeChange(false)
   })
+
+  onMount(() => {
+    const script = document.createElement('script');
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-SP0MC696LV';
+    script.async = true;
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){dataLayer.push(arguments);}
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-SP0MC696LV');
+  });
+
 </script>
 
 <Navbar />
