@@ -44,6 +44,9 @@
         <a class="btn btn-ghost btn-sm rounded-btn" href="/resume">
           Resume
         </a>
+        <a class="btn btn-ghost btn-sm rounded-btn" href="/certification">
+          Certification
+        </a>
         <a class="btn btn-ghost btn-sm rounded-btn" href="/education">
           Education
         </a>
