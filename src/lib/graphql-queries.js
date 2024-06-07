@@ -130,16 +130,3 @@ export const postQuery = gql`
     }
   }
 `
-
-export const certificationsQuery = gql`
-  query {
-    certifications(where: {}) {
-      certification_file {
-        url
-      }
-      certificationName
-      orgName
-      content{html}
-    }
-  }
-`;
