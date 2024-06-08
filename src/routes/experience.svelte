@@ -40,7 +40,7 @@
           location: "Hyderabad, India",
           date: "October 2020 - January 2021",
           logoUrl: "https://media.graphassets.com/FWw9y2LqR2i8wTuu5XTY",
-          website: "https://aidos.co.in/"
+          website: "https://aidossolutions.com/"
       }
   ];
 </script>
