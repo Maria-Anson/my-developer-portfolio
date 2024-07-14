@@ -7,7 +7,7 @@
           company: "Paramount",
           location: "New York, USA",
           date: "July 2024 - Present",
-          logoUrl: "https://media.graphassets.com/VM1fNv1qTd2PG1XFP0Qg",
+          logoUrl: "https://media.graphassets.com/tZragbLvQhiguuQDVxFM",
           website: "https://www.paramount.com/"
       },
       {
