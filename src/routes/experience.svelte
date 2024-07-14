@@ -3,6 +3,14 @@
   import MapPin from '../lib/components/icons/location-icon.svelte';
   let experiences = [
       {
+          role: "Associate Data Scientist",
+          company: "Paramount",
+          location: "New York, USA",
+          date: "July 2024 - Present",
+          logoUrl: "https://media.graphassets.com/VM1fNv1qTd2PG1XFP0Qg",
+          website: "https://www.paramount.com/"
+      },
+      {
           role: "Data Science Coop",
           company: "Moderna",
           location: "Cambridge, USA",
