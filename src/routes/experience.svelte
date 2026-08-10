@@ -3,7 +3,7 @@
   import MapPin from '../lib/components/icons/location-icon.svelte';
   let experiences = [
       {
-          role: "Associate Data Scientist",
+          role: "Product Data Scientist",
           company: "Paramount",
           location: "New York, USA",
           date: "July 2024 - Present",
